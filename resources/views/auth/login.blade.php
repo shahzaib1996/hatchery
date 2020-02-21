@@ -39,19 +39,19 @@
 
 <div class="login-box " style="width: 500px;margin-top: -100px;">
   <div class="login-logo">
-    <a> <b>HATCHERY</b> MANAGEMENT SYSTEM </a>
+     <img src="{{asset('new/logo_t.png')}}" style="width: 80px;height: 80px;"> <br> <a> <b>HATCHERY</b> MANAGEMENT SYSTEM </a>
   </div>
   <!-- /.login-logo -->
   
   <div class="card custom-box-shadow b-r-10 o-f-h f-segoe">
     <div class="card-body login-card-body ">
-      <p class="login-box-msg">Sign in to start your session</p>
+      <!-- <p class="login-box-msg">Sign in to start your session</p> -->
 
       <form method="POST" action="{{ route('login') }}">
         @csrf
-        <label class="w-100-p m-b-0">{{ __('Username') }} <span class="reg-form-err-span"> @error('email') {{ $message }} @enderror </span></label>
+        <label class="w-100-p m-b-0">{{ __('Email') }} <span class="reg-form-err-span"> @error('email') {{ $message }} @enderror </span></label>
         <div class="input-group mb-3">
-          <input type="text" class="form-control" name="email" id="email" placeholder="Enter your email or username" required >
+          <input type="text" class="form-control" name="email" id="email" placeholder="Enter your email..." required >
           <div class="input-group-append">
             <div class="input-group-text">
               <span class="fas fa-user"></span>
@@ -89,7 +89,7 @@
       </form>
 
       <p class="mb-1">
-        <a href="#" class="a-c-dm">I forgot my password</a>
+        <!-- <a href="#" class="a-c-dm">I forgot my password</a> -->
       </p>
 
     </div>

@@ -82,9 +82,9 @@
   <aside class="main-sidebar sidebar-dark-primary elevation-4 bg-black">
     <!-- Brand Logo -->
     <a href="{{route('admin.home')}}" class="brand-link">
-      <img src="{{ asset('images/new_logo_small.png') }}" alt="Gem Galaxy Logo" class="brand-image img-circle elevation-3"
+      <img src="{{ asset('new/logo_a.png') }}" alt="Logo" class="brand-image img-circle elevation-3"
            style="opacity: .8">
-      <span class="brand-text font-weight-light">HATCHERY MANAGEMENT</span>
+      <span class="brand-text font-weight-light">HMS</span>
     </a>
 
     <!-- Sidebar -->
@@ -124,7 +124,7 @@
               <li class="nav-item">
                 <a href="" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Add</p>
+                  <p>Mark Attendance</p>
                 </a>
               </li>
               <li class="nav-item">

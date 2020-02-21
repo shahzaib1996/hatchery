@@ -37,118 +37,57 @@
 
             <div class="row mb-2">
 
-              <div class="col-md-6">
-                <div class="dashboard_sub_heading f22 f-roboto f-w-l m-b-0">
-                  <b>Diamonds</b>
-                </div>
-                <!-- Info boxes -->
-                <div class="row">
-                  <div class="col-12 col-sm-6 col-md-6">
-                    <div class="info-box">
-                      <span class="info-box-icon bg-info elevation-1"><i class="fas fa-clipboard-list"></i></span>
-
-                      <div class="info-box-content">
-                        <span class="info-box-text">Total Listings</span>
-                        <span class="info-box-number">
-                          
-                          <small></small>
-                        </span>
-                      </div>
-                      <!-- /.info-box-content -->
-                    </div>
-                    <!-- /.info-box -->
-                  </div>
-                  <!-- /.col -->
-                  <div class="col-12 col-sm-6 col-md-6">
-                    <div class="info-box mb-3">
-                      <span class="info-box-icon bg-success elevation-1"><i class="fas fa-check-circle"></i></span>
-
-                      <div class="info-box-content">
-                        <span class="info-box-text">Sold</span>
-                        <span class="info-box-number"> </span>
-                      </div>
-                      <!-- /.info-box-content -->
-                    </div>
-                    <!-- /.info-box -->
-                  </div>
-                  <!-- /.col -->
-
-                </div>
-                <!-- /.row -->
-              </div>
-
-              <div class="col-md-6">
-
-                <div class="dashboard_sub_heading f22 f-roboto f-w-l m-b-0">
-                  <b>Gemstones</b>
-                </div>
-                <!-- Info boxes -->
-                <div class="row">
-                  <div class="col-12 col-sm-6 col-md-6">
-                    <div class="info-box">
-                      <span class="info-box-icon bg-info elevation-1"><i class="fas fa-clipboard-list"></i></span>
-
-                      <div class="info-box-content">
-                        <span class="info-box-text">Total Listings</span>
-                        <span class="info-box-number">
-                          
-                          <small></small>
-                        </span>
-                      </div>
-                      <!-- /.info-box-content -->
-                    </div>
-                    <!-- /.info-box -->
-                  </div>
-                  <!-- /.col -->
-                  <div class="col-12 col-sm-6 col-md-6">
-                    <div class="info-box mb-3">
-                      <span class="info-box-icon bg-success elevation-1"><i class="fas fa-check-circle"></i></span>
-
-                      <div class="info-box-content">
-                        <span class="info-box-text">Sold</span>
-                        <span class="info-box-number"> </span>
-                      </div>
-                      <!-- /.info-box-content -->
-                    </div>
-                    <!-- /.info-box -->
-                  </div>
-                  <!-- /.col -->
-
-                </div>
-                <!-- /.row -->
+              <div class="col-md-12">
                 
-              </div>
-
-              <div class="col-md-6">
-
-                <div class="dashboard_sub_heading f22 f-roboto f-w-l m-b-0">
-                  <b>Specimens</b>
-                </div>
                 <!-- Info boxes -->
                 <div class="row">
-                  <div class="col-12 col-sm-6 col-md-6">
+                  <div class="col-12 col-sm-6 col-md-3">
                     <div class="info-box">
-                      <span class="info-box-icon bg-info elevation-1"><i class="fas fa-clipboard-list"></i></span>
+                      <span class="info-box-icon bg-info elevation-1"><i class="fas fa-box"></i></span>
 
                       <div class="info-box-content">
-                        <span class="info-box-text">Total Listings</span>
-                        <span class="info-box-number">
-                          
-                          <small></small>
-                        </span>
+                        <span class="info-box-text">Total Batches</span>
+                        <span class="info-box-number"> 0 </span>
                       </div>
                       <!-- /.info-box-content -->
                     </div>
                     <!-- /.info-box -->
                   </div>
                   <!-- /.col -->
-                  <div class="col-12 col-sm-6 col-md-6">
+                  <div class="col-12 col-sm-6 col-md-3">
                     <div class="info-box mb-3">
                       <span class="info-box-icon bg-success elevation-1"><i class="fas fa-check-circle"></i></span>
 
                       <div class="info-box-content">
-                        <span class="info-box-text">Sold</span>
-                        <span class="info-box-number"> </span>
+                        <span class="info-box-text">Batches in Brooder</span>
+                        <span class="info-box-number"> 0 </span>
+                      </div>
+                      <!-- /.info-box-content -->
+                    </div>
+                    <!-- /.info-box -->
+                  </div>
+                  <!-- /.col -->
+                  <div class="col-12 col-sm-6 col-md-3">
+                    <div class="info-box mb-3">
+                      <span class="info-box-icon bg-success elevation-1"><i class="fas fa-check-circle"></i></span>
+
+                      <div class="info-box-content">
+                        <span class="info-box-text">Batches in Cage</span>
+                        <span class="info-box-number"> 0 </span>
+                      </div>
+                      <!-- /.info-box-content -->
+                    </div>
+                    <!-- /.info-box -->
+                  </div>
+                  <!-- /.col -->
+
+                  <div class="col-12 col-sm-6 col-md-3">
+                    <div class="info-box mb-3">
+                      <span class="info-box-icon bg-success elevation-1"><i class="fas fa-check-circle"></i></span>
+
+                      <div class="info-box-content">
+                        <span class="info-box-text">Batches Sold</span>
+                        <span class="info-box-number"> 0 </span>
                       </div>
                       <!-- /.info-box-content -->
                     </div>
@@ -158,47 +97,9 @@
 
                 </div>
                 <!-- /.row -->
-                
               </div>
 
-              <div class="col-md-6">
-
-                <div class="dashboard_sub_heading f22 f-roboto f-w-l m-b-0">
-                  <b>Jewellery</b>
-                </div>
-                <!-- Info boxes -->
-                <div class="row">
-                  <div class="col-12 col-sm-6 col-md-6">
-                    <div class="info-box">
-                      <span class="info-box-icon bg-info elevation-1"><i class="fas fa-clipboard-list"></i></span>
-
-                      <div class="info-box-content">
-                        <span class="info-box-text">Total Listings</span>
-                        <span class="info-box-number"> 0 <small></small> </span>
-                      </div>
-                      <!-- /.info-box-content -->
-                    </div>
-                    <!-- /.info-box -->
-                  </div>
-                  <!-- /.col -->
-                  <div class="col-12 col-sm-6 col-md-6">
-                    <div class="info-box mb-3">
-                      <span class="info-box-icon bg-success elevation-1"><i class="fas fa-check-circle"></i></span>
-
-                      <div class="info-box-content">
-                        <span class="info-box-text">Sold</span>
-                        <span class="info-box-number">0</span>
-                      </div>
-                      <!-- /.info-box-content -->
-                    </div>
-                    <!-- /.info-box -->
-                  </div>
-                  <!-- /.col -->
-
-                </div>
-                <!-- /.row -->
-                
-              </div>
+              
             
             </div>
 

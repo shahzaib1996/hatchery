@@ -19,7 +19,7 @@ Auth::routes();
 
 // Route::get('/home', 'HomeController@index')->name('home');
 
-Route::get('/','Admincontroller@dashboard')->name('admin.home');
+Route::get('/dashboard','Admincontroller@dashboard')->name('admin.home');
 
 Route::group(array('prefix' => 'staff'), function()
 {

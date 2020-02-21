@@ -337,7 +337,10 @@
 
 .sb-active-item {
 	/*background-color: #dfc16f !important;*/
-	background-image: linear-gradient(#e1c276, #b49057);
+	/*background-image: linear-gradient(#e1c276, #b49057);*/
+
+	background-image: linear-gradient(#26A69A, #00897B);
+
 }
 
 .btn-diamond {
