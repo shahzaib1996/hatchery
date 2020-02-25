@@ -42,12 +42,12 @@
                 <!-- Info boxes -->
                 <div class="row">
                   <div class="col-12 col-sm-6 col-md-3">
-                    <div class="info-box">
-                      <span class="info-box-icon bg-info elevation-1"><i class="fas fa-box"></i></span>
+                    <div class="info-box mb-3">
+                      <span class="info-box-icon bg-info elevation-1"><i class="fas fa-book"></i></span>
 
                       <div class="info-box-content">
                         <span class="info-box-text">Total Batches</span>
-                        <span class="info-box-number"> 0 </span>
+                        <span class="info-box-number"> 5 </span>
                       </div>
                       <!-- /.info-box-content -->
                     </div>
@@ -56,11 +56,11 @@
                   <!-- /.col -->
                   <div class="col-12 col-sm-6 col-md-3">
                     <div class="info-box mb-3">
-                      <span class="info-box-icon bg-success elevation-1"><i class="fas fa-check-circle"></i></span>
+                      <span class="info-box-icon bg-warning elevation-1"><i class="fas fa-home"></i></span>
 
                       <div class="info-box-content">
                         <span class="info-box-text">Batches in Brooder</span>
-                        <span class="info-box-number"> 0 </span>
+                        <span class="info-box-number"> 2 </span>
                       </div>
                       <!-- /.info-box-content -->
                     </div>
@@ -69,11 +69,11 @@
                   <!-- /.col -->
                   <div class="col-12 col-sm-6 col-md-3">
                     <div class="info-box mb-3">
-                      <span class="info-box-icon bg-success elevation-1"><i class="fas fa-check-circle"></i></span>
+                      <span class="info-box-icon bg-blue elevation-1"><i class="fas fa-box"></i></span>
 
                       <div class="info-box-content">
                         <span class="info-box-text">Batches in Cage</span>
-                        <span class="info-box-number"> 0 </span>
+                        <span class="info-box-number"> 2 </span>
                       </div>
                       <!-- /.info-box-content -->
                     </div>
@@ -87,7 +87,7 @@
 
                       <div class="info-box-content">
                         <span class="info-box-text">Batches Sold</span>
-                        <span class="info-box-number"> 0 </span>
+                        <span class="info-box-number"> 1 </span>
                       </div>
                       <!-- /.info-box-content -->
                     </div>

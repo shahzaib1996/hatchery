@@ -112,6 +112,52 @@
               </p>  
             </a>
           </li>
+
+          <li class="nav-item ">
+            <a href="#" class="nav-link">
+              <i class="fa fa-link nav-icon"></i>
+              <p>
+                New Batch
+              </p>
+            </a>
+          </li>
+
+          <li class="nav-item ">
+            <a href="#" class="nav-link">
+              <i class="fa fa-link nav-icon"></i>
+              <p>
+                Incubator
+              </p>
+            </a>
+          </li>
+
+          <li class="nav-item ">
+            <a href="#" class="nav-link">
+              <i class="fa fa-link nav-icon"></i>
+              <p>
+                Brooder
+              </p>
+            </a>
+          </li>
+
+          <li class="nav-item ">
+            <a href="#" class="nav-link">
+              <i class="fa fa-link nav-icon"></i>
+              <p>
+                Cage
+              </p>
+            </a>
+          </li>
+
+          <li class="nav-item ">
+            <a href="#" class="nav-link">
+              <i class="fa fa-link nav-icon"></i>
+              <p>
+                Completed Batches
+              </p>
+            </a>
+          </li>
+
           <li class="nav-item has-treeview">
             <a href="#" class="nav-link">
               <i class="fa fa-link nav-icon"></i>

@@ -50,9 +50,9 @@ class StaffController extends Controller
         $data['staff']=Staff::find($id);
         return view('staff.edit',$data);
     }
-    public function update()
+    public function update($id)
     {   
-        $id =Input::get('staff_id');
+        
         $staff=Staff::find($id);
                                                        
         $staff_data = array(
@@ -64,7 +64,12 @@ class StaffController extends Controller
           'details' => Input::get('details'), 
         );
         $staff_id = Staff::where('id', '=', $id)->update($staff_data);
-        return redirect('staff')->with('message', 'Staff Updated successfully');
+        if($staff_id) {
+            Helper::createSweetAlert("success","Staff Member has been updated successfully.","Success");
+        } else {
+            Helper::createSweetAlert("error","Failed to update, Try Again","Error");
+        }
+        return back();
     }
 
     

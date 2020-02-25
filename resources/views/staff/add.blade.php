@@ -83,7 +83,7 @@
                     <div class="col-md-4">
                       <div class="form-group" >
                         <label>CNIC<span class="reg-form-err-span"> &nbsp; @error('cnic') {{ $message }} @enderror  </span> </label>
-                        <input type="text" class="form-control" name="cnic" id="cnic" required>
+                        <input type="text" class="form-control" name="cnic" id="cnic" mask="99999-9999999-9" required>
                       </div>
                     </div>
 
@@ -128,8 +128,12 @@
                
                   </div> <!-- Row End -->
 
-                  <hr>
-
+                  <div class="row ">
+                    <div class="col-12 text-center">
+                      <!-- <a href="#" class="btn btn-secondary">Cancel</a> -->
+                      <input type="submit" value="Create" class="btn btn-diamond btn-lg f-roboto w-200">
+                    </div>
+                  </div>
                   
                                     
                 </div>
@@ -147,12 +151,6 @@
 
         </div>
 
-        <div class="row p-b-20">
-          <div class="col-12 text-center">
-            <!-- <a href="#" class="btn btn-secondary">Cancel</a> -->
-            <input type="submit" value="Create" class="btn btn-diamond btn-lg f-roboto w-200">
-          </div>
-        </div>
 
       </div>
 
