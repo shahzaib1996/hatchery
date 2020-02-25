@@ -332,7 +332,8 @@
 
 .dm-bg-linear {
 	/*background-image: linear-gradient(#ece29a, #dfc16f);*/
-	background-image: linear-gradient(#e1c276, #b49057);
+	/*background-image: linear-gradient(#e1c276, #b49057);*/
+	background-image: linear-gradient(#26A69A, #00897B);
 }
 
 .sb-active-item {
@@ -358,22 +359,22 @@
 }
 
 .btn-diamond:hover {
-    background-image: linear-gradient(#00897B,#26A69A);
+    background-image: linear-gradient(#00897B,#00897B);
     /*background-image: linear-gradient(#b49057,#b49057);*/
         /*background-image: linear-gradient(#2c3dad, #2c3dad);*/
     color: #fff;
 }
 
 .btn-outline-diamond {
-	color: #b49057;
-    border-color: #b49057;
+	color: #26A69A;
+    border-color: #26A69A;
     /*background-image: linear-gradient(#e1c276, #b49057);*/
     /*background: #fff;*/
     /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
 }
 
 .btn-outline-diamond:hover {
-    background-image: linear-gradient(#e1c276, #b49057);
+    background-image: linear-gradient(#26A69A, #00897B);
     color: #fff;
 }
 
@@ -402,7 +403,7 @@ a.a-c-dm {
 }
 
 a.a-c-dm:hover {
-	color:#b49057 !important; 
+	color:#00897B !important; 
 }
 
 a.a-c-dm-h {

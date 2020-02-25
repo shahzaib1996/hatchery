@@ -7,20 +7,20 @@ use App\Staff;
 use Illuminate\Support\Facades\Input;
 use Illuminate\Support\Facades\Redirect;
 use Hash;
+use App\Http\Common\Helper;
 
 class StaffController extends Controller
 {
-    public function index()
-      { 
+    public function index() { 
         $data['staffs'] = Staff::all();
         return view('staff.index',$data);
       }
-    public function add()
-      { 
+    public function create() { 
         return view('staff.add');
       }
-    public function addPost()
-      {
+
+    public function store() {
+        // return Input::get();
         $staff_data = array(
              'name' => Input::get('name'), 
              'cnic' => Input::get('cnic'), 
@@ -29,8 +29,15 @@ class StaffController extends Controller
              'address' => Input::get('address'), 
              'details' => Input::get('details'), 
             );
-                        $staff_id = Staff::insert($staff_data);
-        return redirect('staff')->with('message', 'Staff successfully added');
+            $staff_id = Staff::insert($staff_data);
+            
+        if($staff_id) {
+            Helper::createSweetAlert("success","Staff Member has been created successfully.","Success");
+        } else {
+            Helper::createSweetAlert("error","Failed to create, Try Again","Error");
+        }
+        return back();
+
     }
     public function delete($id)
     {   
@@ -43,7 +50,7 @@ class StaffController extends Controller
         $data['staff']=Staff::find($id);
         return view('staff.edit',$data);
     }
-    public function editPost()
+    public function update()
     {   
         $id =Input::get('staff_id');
         $staff=Staff::find($id);
