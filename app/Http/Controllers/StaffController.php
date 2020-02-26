@@ -87,4 +87,8 @@ class StaffController extends Controller
         return view('staff.view',$data);
         
     }
+
+    public function testView() {
+      return view('batch.cage');
+    }
 }

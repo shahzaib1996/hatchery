@@ -64,7 +64,6 @@
                 <div class="card-body">
 
                   <div class="row">
-
                     
                     <div class="col-md-4">
                       <div class="form-group" >
@@ -73,20 +72,34 @@
                       </div>
                     </div>
 
+
+                  </div>
+
+
+                  <h3>Incubation Section</h3>
+                  
+                  <div class="row">
+
                     <div class="col-md-4">
                       <div class="form-group" >
-                        <label>Mobile<span class="reg-form-err-span"> &nbsp; @error('mobile') {{ $message }} @enderror  </span> </label>
+                        <label>Start Date<span class="reg-form-err-span"> &nbsp; @error('cnic') {{ $message }} @enderror  </span> </label>
+                        <input type="date" class="form-control" name="cnic" id="cnic" required>
+                      </div>
+                    </div>
+
+                    <div class="col-md-4">
+                      <div class="form-group" >
+                        <label>Stove Turning Date<span class="reg-form-err-span"> &nbsp; @error('address') {{ $message }} @enderror  </span> </label>
+                        <input type="date" class="form-control" name="address" id="address" required>
+                      </div>
+                    </div>
+
+                    <div class="col-md-4">
+                      <div class="form-group" >
+                        <label>Tray No<span class="reg-form-err-span"> &nbsp; @error('mobile') {{ $message }} @enderror  </span> </label>
                         <input type="text" class="form-control" name="mobile" id="mobile" required>
                       </div>
                     </div>
-
-                    <div class="col-md-4">
-                      <div class="form-group" >
-                        <label>CNIC<span class="reg-form-err-span"> &nbsp; @error('cnic') {{ $message }} @enderror  </span> </label>
-                        <input type="text" class="form-control" name="cnic" id="cnic" mask="99999-9999999-9" required>
-                      </div>
-                    </div>
-
 
 
                   </div><!-- Row End -->
@@ -97,20 +110,10 @@
                     
                     <div class="col-md-4">
                       <div class="form-group" >
-                        <label>Designation<span class="reg-form-err-span"> &nbsp; @error('designation') {{ $message }} @enderror  </span> </label>
+                        <label>Total Eggs Placed<span class="reg-form-err-span"> &nbsp; @error('designation') {{ $message }} @enderror  </span> </label>
                         <input type="text" class="form-control" name="designation" id="designation" required>
                       </div>
                     </div>
-
-                    
-
-                    <div class="col-md-4">
-                      <div class="form-group" >
-                        <label>Address<span class="reg-form-err-span"> &nbsp; @error('address') {{ $message }} @enderror  </span> </label>
-                        <input type="text" class="form-control" name="address" id="address" required>
-                      </div>
-                    </div>
-
 
                   </div><!-- Row End -->
 
@@ -120,12 +123,11 @@
                     
                     <div class="col-md-12">
                       <div class="form-group">
-                        <label >Details <span class="reg-form-err-span"> &nbsp; @error('details') {{ $message }} @enderror </span> </label>
-                        <textarea type="text" class="form-control" name="details" id="details" rows="10"></textarea>
+                        <label >Notes <span class="reg-form-err-span"> &nbsp; @error('details') {{ $message }} @enderror </span> </label>
+                        <textarea type="text" class="form-control" name="details" id="details" rows="5"></textarea>
                       </div>
                     </div>
 
-               
                   </div> <!-- Row End -->
 
                   <div class="row ">

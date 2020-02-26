@@ -26,7 +26,7 @@
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <h1 class="m-0 text-dark">Add New Staff Member</h1>
+            <h1 class="m-0 text-dark">Add New Batch</h1>
           </div><!-- /.col -->
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
@@ -54,7 +54,7 @@
             <!-- general form elements -->
             <div class="card card-primary">
               <div class="card-header dm-bg-linear t-c-w">
-                <h3 class="card-title">New Member Details</h3>
+                <h3 class="card-title">New Batch Details</h3>
                 <div class="card-tools">
                   <button type="button" class="btn btn-tool" data-card-widget="collapse" data-toggle="tooltip" title="Collapse">
                     <i class="fas fa-minus t-c-w"></i></button>
@@ -68,7 +68,7 @@
                     
                     <div class="col-md-4">
                       <div class="form-group" >
-                        <label>Name<span class="reg-form-err-span"> &nbsp; @error('name') {{ $message }} @enderror  </span> </label>
+                        <label>Batch ID<span class="reg-form-err-span"> &nbsp; @error('name') {{ $message }} @enderror  </span> </label>
                         <input type="text" class="form-control" name="name" id="name" required>
                       </div>
                     </div>
@@ -121,7 +121,7 @@
                     <div class="col-md-12">
                       <div class="form-group">
                         <label >Details <span class="reg-form-err-span"> &nbsp; @error('details') {{ $message }} @enderror </span> </label>
-                        <textarea type="text" class="form-control" name="details" id="details" rows="5"></textarea>
+                        <textarea type="text" class="form-control" name="details" id="details" rows="10"></textarea>
                       </div>
                     </div>
 

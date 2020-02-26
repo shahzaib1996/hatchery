@@ -32,3 +32,6 @@ Route::group(array('prefix' => 'staff'), function()
 	Route::get('/change-status-staff/{id}', 'StaffController@changeStatus');
 	Route::get('/{id}', 'StaffController@view')->name('staff.view');
 });
+
+
+Route::get("/test",'StaffController@testView');
