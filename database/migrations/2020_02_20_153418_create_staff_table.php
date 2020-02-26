@@ -18,6 +18,7 @@ class CreateStaffTable extends Migration
             $table->string('name');
             $table->string('cnic');
             $table->string('designation');
+            $table->string('salary');
             $table->string('mobile')->nullable();
             $table->string('address')->nullable();
             $table->text('details')->nullable();

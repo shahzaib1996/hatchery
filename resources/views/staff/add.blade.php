@@ -102,7 +102,12 @@
                       </div>
                     </div>
 
-                    
+                    <div class="col-md-4">
+                      <div class="form-group" >
+                        <label>Salary<span class="reg-form-err-span"> &nbsp; @error('salary') {{ $message }} @enderror  </span> </label>
+                        <input type="text" class="form-control" name="salary" id="salary" required>
+                      </div>
+                    </div>                    
 
                     <div class="col-md-4">
                       <div class="form-group" >

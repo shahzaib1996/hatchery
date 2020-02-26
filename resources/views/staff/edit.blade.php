@@ -102,7 +102,13 @@
                       </div>
                     </div>
 
-                    
+                    <div class="col-md-4">
+                      <div class="form-group" >
+                        <label>Salary<span class="reg-form-err-span"> &nbsp; @error('salary') {{ $message }} @enderror  </span> </label>
+                        <input type="text" class="form-control" name="salary" id="salary" value="{{$staff->salary}}" required>
+                      </div>
+                    </div>                    
+
 
                     <div class="col-md-4">
                       <div class="form-group" >
@@ -121,7 +127,7 @@
                     <div class="col-md-12">
                       <div class="form-group">
                         <label >Details <span class="reg-form-err-span"> &nbsp; @error('details') {{ $message }} @enderror </span> </label>
-                        <textarea type="text" class="form-control" name="details" id="details" rows="10">value="{{$staff->details}}"</textarea>
+                        <textarea type="text" class="form-control" name="details" id="details" rows="10">{{$staff->details}}</textarea>
                       </div>
                     </div>
 

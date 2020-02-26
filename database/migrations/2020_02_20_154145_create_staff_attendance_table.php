@@ -19,7 +19,8 @@ class CreateStaffAttendanceTable extends Migration
             $table->integer('staff_id')->unsigned()->index();
             $table->foreign('staff_id')->references('id')->on('staff');
 
-            $table->dateTime('present_date');
+            $table->date('present_date');
+            $table->boolean('status')->default(1);
 
             $table->timestamps();
         });

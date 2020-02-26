@@ -30,7 +30,8 @@ Route::group(array('prefix' => 'staff'), function()
 	Route::get('/edit/{id}', 'StaffController@edit')->name('staff.edit');
 	Route::post('/update/{id}', 'StaffController@update')->name('staff.update');
 	Route::get('/change-status-staff/{id}', 'StaffController@changeStatus');
-	Route::get('/{id}', 'StaffController@view')->name('staff.view');
+	Route::get('/attendance', 'StaffController@attendance')->name('staff.attendance');
+	Route::post('/mark/attendance', 'StaffController@markPresent')->name('staff.mark.present');
 });
 
 
